@@ -34,14 +34,14 @@ class BankBranch {
 const branchA = new BankBranch({
   branchName: "Main Branch",
   branchCode: "0299",
-  branchLocation: "Rustenburg CBD",
+  branchLocation: "Rustenburg CBD"
 });
 console.log(branchA.getBranchInfo());
 
 const branchB = new BankBranch({
   branchName: "Headquarters",
   branchCode: "2000",
-  branchLocation: "Sandton City",
+  branchLocation: "Sandton City"
 });
 console.log(branchB.getBranchInfo());
 
